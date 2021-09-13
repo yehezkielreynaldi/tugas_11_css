@@ -1,0 +1,53 @@
+body{
+    margin: 0 auto;
+}
+
+header {
+  height: 50px;
+  width: 100%;
+  background-color: #333333;
+  margin: 10px 11px;
+}
+
+header,
+a {
+  color: white;
+  text-decoration: none;
+
+  padding-right: 20px;
+}
+
+header,
+ul,
+li {
+  list-style: none;
+  display: inline-block;
+  /* float: left; */
+}
+
+main{
+    margin-left: 10px;
+}
+
+.judul{
+      column-span: all;
+}
+
+p{
+    column-span: all;
+    column-count: 12;
+    column-width: 350px;
+    column-fill: balance;
+    column-rule: 2px solid black;
+    font-size: 12.5px;
+    text-align: justify;
+}
+
+.footer{
+    margin-top: 10px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    height: 50px;
+    font-size: 14px;
+}
